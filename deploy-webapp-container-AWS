@@ -1,0 +1,26 @@
+node{
+   stage('GIT Checkout'){
+       git credentialsId: 'git-creds', url: 'http://github.com//rajakumarguptatechie/jenkins'
+   }
+   stage('Maven Packaging'){
+     def mvnHome = tool name: 'maven-3', type: 'maven'
+     def mvnCMD = "${mvnHome}/bin/mvn"
+     sh "${mvnCMD} clean package"
+   }
+   stage('Build Docker Image of web application'){
+     sh 'docker build -t rajakumargupta/my-app:2.0.0 .'
+   }
+   stage('Push Docker Image'){
+     withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerHubPassword')]) {
+        sh "docker login -u rajakumargupta -p ${dockerHubPassword}"
+     }
+     sh 'docker push rajakumargupta/my-app:2.0.0'
+   }
+   stage('Run Container on Dev Server'){
+     def dockerRun = 'docker run -p 8080:8080 -d rajakumargupta/my-app:2.0.0'
+     sshagent(['AWS-server']) {
+       sh "ssh -o StrictHostKeyChecking=no ubuntu@172.31.18.198 ${dockerRun}"
+     }
+   }
+}
+
