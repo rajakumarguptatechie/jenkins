@@ -13,9 +13,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-                script {
-                    sh test.sh
-                }
+                sh 'test.sh'
             }
         }
     }
