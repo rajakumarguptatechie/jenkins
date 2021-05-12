@@ -2,7 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Fetch code from git') {
-            git credentialsId: 'raja-githug', url: 'https://github.com/rajakumarguptatechie/shellscript.git'
+            steps {
+                git credentialsId: 'raja-githug', url: 'https://github.com/rajakumarguptatechie/shellscript.git'
+            }    
         }   
         stage('Build') {
             steps {
@@ -11,9 +13,9 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-            }
-            script {
-                sh test.sh
+                script {
+                    sh test.sh
+                }
             }
         }
     }
