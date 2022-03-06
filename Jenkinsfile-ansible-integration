@@ -1,0 +1,19 @@
+pipeline {
+    agent {
+        node {
+            label 'ansiblehost'
+        }
+    }
+    stages {
+        stage('Download Ansible Code From Github') { 
+            steps {
+                git branch: 'master', credentialsId: 'jenkins-github-credential', url: 'https://github.com/rajakumarguptatechie/ansible.git'
+            }    
+        }
+        stage('Run Ansible Playbook') {
+            steps {
+                sh "ansible-playbook apache.yml"
+            }
+        }
+    }      
+}
