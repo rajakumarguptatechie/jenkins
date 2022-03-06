@@ -1,0 +1,15 @@
+Started on Mar 6, 2022, 10:03:24 AM
+Started by event from 140.82.115.109 ⇒ http://ec2-3-84-103-45.compute-1.amazonaws.com:8080/github-webhook/ on Sun Mar 06 10:03:24 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 88ca61cd5fd99bc91b79a5794a0db34bdec04cd6 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential jenkins-github-credential
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/rajakumarguptatechie/docker.git # timeout=10
+Found 2 remote heads on https://github.com/rajakumarguptatechie/docker.git
+[poll] Latest remote head revision on refs/heads/master is: d9aa7207f1b5976ca68e2acffb24b9739e5eb57a
+Done. Took 99 ms
+Changes found

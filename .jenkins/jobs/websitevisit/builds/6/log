@@ -1,0 +1,135 @@
+Started by user [8mha:////4FSf+IHBNS5vTv/mludM1Bl+lDiPDKrvcUnkISKc6g4PAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgY+/dLi1CL9osSs9NKCkkQAdZZlAsMAAAA=[0mRaja Kumar Gupta
+[8mha:////4EiHEUUVg5dJxe+kYptKECVQ8+0JU2ROHf52Womp5FPUAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FemYl9/sL2GqWPdMXNUyBjnTjRXNcZ9Hgr4CQk8VXvtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IXhHC1xNbaueu2ycEA12NnwjfKtEcBhvl/Q23Hbn511AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYx/eT83ILSktQi/ZT85OzUouCcxLJUfQALAA0dywAAAA==[0mdockerSlave in /home/ec2-user/workspace/websitevisit
+[8mha:////4LsnXir+dCeJPEqkZaqYyFeQxUrSUEe6cJr//d/b4A+PAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NaDZMwyZSYmToNkzmDOUW8ULTLPkc5lpBpWFvJvnWtFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4OTgb/PTvm/t9nkh9JJKzUd0JkkPRzRD32eSoqwM03UoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Download Docker Code From Github)
+[8mha:////4CErlqm7nR3hDkFXxfsFouSr1dNtsjtZgmTOhucB6uyCAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential jenkins-github-credential
+Fetching changes from the remote Git repository
+Checking out Revision ba8b345c649ea68ce96b9a81a6620cfce76f5ca2 (refs/remotes/origin/master)
+Commit message: "Update dockerUsefulCommand.txt"
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/websitevisit/.git # timeout=10
+ > git config remote.origin.url https://github.com/rajakumarguptatechie/docker.git # timeout=10
+Fetching upstream changes from https://github.com/rajakumarguptatechie/docker.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/rajakumarguptatechie/docker.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba8b345c649ea68ce96b9a81a6620cfce76f5ca2 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master ba8b345c649ea68ce96b9a81a6620cfce76f5ca2 # timeout=10
+ > git rev-list --no-walk ba8b345c649ea68ce96b9a81a6620cfce76f5ca2 # timeout=10
+[8mha:////4Fct9SZwfFTywePMiZSMzPi/rgfR7tLtRoNY2IM531DlAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BojKgEvrchMgzOAq5sSpX7tIiShHSdnGs6oyMCLldgnAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4OUxK5sptNdqPVg9cSH1x4gWWENKjV77IXC5KsYbQiPVAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4CKNppJ4OvvvSQmgt4iSv1cvtkiXduVY7+sPgAGiDts0AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Docker Image Build and Tag)
+[8mha:////4MKfpX8qEYqNmCHxunCbmP++wsbf4ay6YneXLELxPlysAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ cd websiteVisitCount
++ docker build -t websitevisitcount:6 .
+Sending build context to Docker daemon  6.144kB
+Step 1/7 : FROM python:2.7-slim
+ ---> eeb27ee6b893
+Step 2/7 : WORKDIR /app
+ ---> Running in 25581203985c
+Removing intermediate container 25581203985c
+ ---> f22f362c8d71
+Step 3/7 : COPY app.py requirements.txt /app/
+ ---> fac189ea2879
+Step 4/7 : RUN pip install --trusted-host pypi.python.org -r requirements.txt
+ ---> Running in b6c0cb5fea3b
+[91mDEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+[0mCollecting Flask
+  Downloading Flask-1.1.4-py2.py3-none-any.whl (94 kB)
+Collecting Redis
+  Downloading redis-3.5.3-py2.py3-none-any.whl (72 kB)
+Collecting click<8.0,>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting Werkzeug<2.0,>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting Jinja2<3.0,>=2.10.1
+  Downloading Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+Collecting itsdangerous<2.0,>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting MarkupSafe>=0.23
+  Downloading MarkupSafe-1.1.1-cp27-cp27mu-manylinux1_x86_64.whl (24 kB)
+Installing collected packages: click, Werkzeug, MarkupSafe, Jinja2, itsdangerous, Flask, Redis
+Successfully installed Flask-1.1.4 Jinja2-2.11.3 MarkupSafe-1.1.1 Redis-3.5.3 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0
+[91mWARNING: You are using pip version 20.0.2; however, version 20.3.4 is available.
+You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.
+[0mRemoving intermediate container b6c0cb5fea3b
+ ---> 13c38782c58d
+Step 5/7 : EXPOSE 80
+ ---> Running in 3b7ceda8a5ed
+Removing intermediate container 3b7ceda8a5ed
+ ---> 85e1ffae27a6
+Step 6/7 : ENV NAME RajaKumarGupta
+ ---> Running in aff9b69e98ff
+Removing intermediate container aff9b69e98ff
+ ---> bbce033ee6f3
+Step 7/7 : CMD ["python", "app.py"]
+ ---> Running in e6a55335eb94
+Removing intermediate container e6a55335eb94
+ ---> 6264202fe2ff
+Successfully built 6264202fe2ff
+Successfully tagged websitevisitcount:6
++ docker tag websitevisitcount:6 rajakumargupta/websitevisitcount:6
+[8mha:////4HSsnADqSDmyu1XZctqhvH4fUq1mLFFKJrFzGk+hqS5UAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4M3v7cXMaiRWgxhW2L44/DO2fo48Db1fz5rWze4sOT0KAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4K/ogc/Jdh9KnbRm4wfnXai23qA5+4Zx9m2GT/A2Jmx8AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4K53hgeOs+0w8SOuvuIC7a1qfE5D+VKxlrRYY775NpjLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Docker Image Upload to Repository)
+[8mha:////4FY32YAUsRdaK37h1sqovDZOfMAtWDDPerROt7Un78pKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $passWord
+[8mha:////4IQJAAN/rmNZywsq/N3LMafEqOZX0mGKeGjrtJlVCCONAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4NJsvaYWHpiOd2NF+0Ez+9/+kkZEUa+VCSmW76SECVkUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ docker push rajakumargupta/websitevisitcount:6
+The push refers to repository [docker.io/rajakumargupta/websitevisitcount]
+a803994b9910: Preparing
+811c81ec740a: Preparing
+35f205b9a7bb: Preparing
+7a287aad297b: Preparing
+7ea2b60b0a08: Preparing
+568944187d93: Preparing
+b60e5c3bcef2: Preparing
+568944187d93: Waiting
+b60e5c3bcef2: Waiting
+7ea2b60b0a08: Layer already exists
+7a287aad297b: Layer already exists
+b60e5c3bcef2: Layer already exists
+568944187d93: Layer already exists
+35f205b9a7bb: Pushed
+811c81ec740a: Pushed
+a803994b9910: Pushed
+6: digest: sha256:4b4ae0033f00b6da98f1681d30b2f500fd5315512f834c73bee0795758b5d93b size: 1788
+[8mha:////4Jo2uGDNQNBxkNizznkaa/7d5EvAHaxGA3aqyOAHwD+bAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4ORmjLhd7tBJSzYYoWubvqw4k3XKkbwFR0Jw3lpbfsXzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4NqCiHP2ulm9OVUxX4+5UpNDZYbNEBpdy1ghVIqlUVzPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRKWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEauamDvgAAAA==[0m[Pipeline] }
+[8mha:////4HE38FplLlvkIIQ/Zfl4wYYLP9djKRoSa5WDm5HgJp/yAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEFO/zRvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JAfeEJLyogC51quzoLwr8LYoJR0pRTIDry3KbPK6DWmAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjoXSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INPbxT+8EAAAA=[0m[Pipeline] stage
+[8mha:////4OvfP5XULTXQkhpJW+fxjDs/zZ9nXmzBt73Eh0aVqJNDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Docker Image Cleanup from Local host)
+[8mha:////4EmIfcKxs07k69THLqx78AxCPm36Ebi+D4ZIIpPvWlGaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ docker rmi rajakumargupta/websitevisitcount:6
+Untagged: rajakumargupta/websitevisitcount:6
+Untagged: rajakumargupta/websitevisitcount@sha256:4b4ae0033f00b6da98f1681d30b2f500fd5315512f834c73bee0795758b5d93b
++ docker rmi websitevisitcount:6
+Untagged: websitevisitcount:6
+Deleted: sha256:6264202fe2ffbccdfc8f539e06d4c76673cb7a7d9acf606c72d2c26bdd973714
+Deleted: sha256:bbce033ee6f39ca1a1936ea1620697fcaa15b58c23017eeb0b377989500b9fab
+Deleted: sha256:85e1ffae27a6f52e1cf9622a636144904b404fb849a75b2ac197716ccf1ad23e
+Deleted: sha256:13c38782c58db3c3e1f5faa1d4987c33b19f54c48f502a0772e6b30c96c0339b
+Deleted: sha256:b69659fb34ae37432a1470493d3aa24f2212102ad098d9bfb11842ebc2f33ee1
+Deleted: sha256:fac189ea2879ae60e2ac83b83630741d74d535aec14d1bac04075019e1196253
+Deleted: sha256:802e4f03a080c62f84d23da44e815dfb46f201b998ed9636eb043d36a0e39961
+Deleted: sha256:f22f362c8d71253307cba58a8df3e1e29b6dd41fdbdbd2f5abbf83762420b6d2
+Deleted: sha256:2c903ad5f6d7bbcc09eda83eed93d37c2aba09d535caa92b0870c17087d53237
+[8mha:////4D4ALQBx7F0icPU0eUidMnf+0vAjkoAbn0lGka0Yqb3IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4OeHWA9RFvMnBOluxUInh0+YrspviNQsnEF7LrJFFarxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // stage
+[8mha:////4L8G0Tc1noDY27DsauKhbyhE40K0iUPV/v1RoTq5LlyGAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREA1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AFo7wVm9AAAA[0m[Pipeline] }
+[8mha:////4AGwY93RagSmnThtqctsekoklw1uQ4VcHRdoht8hglZCAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KYMBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR8tH+kBvQAAAA==[0m[Pipeline] // node
+[8mha:////4OmoaF6lXoRCptQ2YdwU78oo3R3434pnQust9u+o3N+nAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny/VaQ7T4LBo5LvQAAAA==[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

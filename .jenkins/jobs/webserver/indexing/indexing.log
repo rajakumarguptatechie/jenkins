@@ -1,0 +1,34 @@
+Started
+[Sun Mar 06 10:43:42 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+using GIT_ASKPASS to set credentials github credential
+ > git ls-remote --symref -- https://github.com/rajakumarguptatechie/docker.git # timeout=10
+ > git rev-parse --resolve-git-dir /home/ec2-user/.jenkins/caches/git-5d162ce83f4c4c4892cbed1d3422d7fd/.git # timeout=10
+Setting origin to https://github.com/rajakumarguptatechie/docker.git
+ > git config remote.origin.url https://github.com/rajakumarguptatechie/docker.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+using GIT_ASKPASS to set credentials github credential
+ > git ls-remote -h -- https://github.com/rajakumarguptatechie/docker.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials github credential
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch master
+      ‘webserver/Jenkinsfile’ found
+    Met criteria
+Changes detected: master (d9aa7207f1b5976ca68e2acffb24b9739e5eb57a → f5a8a13711c4468dba58a6fb647d752d6147905b)
+Scheduled build for branch: master
+  Checking branch dev
+      ‘webserver/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (31102ece79ad89a006090649183abe1f901853a0 → 6df01723f85b2b68f951e5b3ff1db117d8dc0f15)
+Scheduled build for branch: dev
+Processed 2 branches
+[Sun Mar 06 10:43:42 UTC 2022] Finished branch indexing. Indexing took 0.39 sec
+Finished: SUCCESS
