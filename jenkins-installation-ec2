@@ -1,0 +1,7 @@
+1. Install JAVA:                sudo amazon-linux-extras install java-openjdk11 -y
+2. Download the Jenkins war:    wget https://get.jenkins.io/war-stable/2.332.1/jenkins.war
+3. Install Jenkins:             nohup java -jar Jenkins.war &
+4. Launch Jenkins:              Hit <public-ip-of-ec2-jenkins-server>:8080
+5. Enter Initial password from "/home/ec2-user/.jenkins/secrets/initialAdminPassword"
+6. Install the plugins
+7. Create Admin User
